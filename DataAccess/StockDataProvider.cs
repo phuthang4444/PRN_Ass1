@@ -2,10 +2,8 @@
 using System;
 using System.Data;
 
-namespace DataAccess
-{
-    internal class StockDataProvider
-    {
+namespace DataAccess {
+    public class StockDataProvider {
         public StockDataProvider() { }
 
         private string ConnectionString { get; set; }
@@ -15,10 +13,8 @@ namespace DataAccess
         public void CloseConnection(SqlConnection connection) => connection.Close();
 
         public SqlParameter CreateParameter(string name, int size, object value, DbType dbType
-            , ParameterDirection direction = ParameterDirection.Input)
-        {
-            return new SqlParameter
-            {
+            , ParameterDirection direction = ParameterDirection.Input) {
+            return new SqlParameter {
                 DbType = dbType,
                 ParameterName = name,
                 Size = size,
@@ -28,99 +24,79 @@ namespace DataAccess
         }
 
         public IDataReader GetDataReader(string commandText, CommandType commandType
-            , out SqlConnection connection, params SqlParameter[] parameters)
-        {
+            , out SqlConnection connection, params SqlParameter[] parameters) {
             IDataReader reader = null;
-            try
-            {
+            try {
                 connection = new SqlConnection(ConnectionString);
                 connection.Open();
                 var command = new SqlCommand(commandText, connection);
                 command.CommandType = commandType;
-                if (parameters != null)
-                {
-                    foreach (var parameter in parameters)
-                    {
+                if (parameters != null) {
+                    foreach (var parameter in parameters) {
                         command.Parameters.Add(parameter);
                     }
                 }
                 reader = command.ExecuteReader();
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex) {
                 throw new Exception(ex.Message);
             }
             return reader;
         }
 
         public void Delete(string commandText, CommandType commandType
-            , params SqlParameter[] parameters)
-        {
-            try
-            {
+            , params SqlParameter[] parameters) {
+            try {
                 using var connection = new SqlConnection(ConnectionString);
                 connection.Open();
                 using var command = new SqlCommand(commandText, connection);
                 command.CommandType = commandType;
-                if (parameters != null)
-                {
-                    foreach (var parameter in parameters)
-                    {
+                if (parameters != null) {
+                    foreach (var parameter in parameters) {
                         command.Parameters.Add(parameter);
                     }
                 }
                 command.ExecuteNonQuery();
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex) {
                 throw new Exception("Data Provider: Delete Method", ex.InnerException);
             }
         }
 
         public void Insert(string commandText, CommandType commandType
-            , params SqlParameter[] parameters)
-        {
-            try
-            {
+            , params SqlParameter[] parameters) {
+            try {
                 using var connection = new SqlConnection(ConnectionString);
                 connection.Open();
                 using var command = new SqlCommand(commandText, connection);
                 command.CommandType = commandType;
-                if (parameters != null)
-                {
-                    foreach (var parameter in parameters)
-                    {
+                if (parameters != null) {
+                    foreach (var parameter in parameters) {
                         command.Parameters.Add(parameter);
                     }
                 }
                 command.ExecuteNonQuery();
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex) {
                 throw new Exception(ex.Message);
             }
         }
 
         public void Update(string commandText, CommandType commandType
-            , params SqlParameter[] parameters)
-        {
-            try
-            {
+            , params SqlParameter[] parameters) {
+            try {
                 using var connection = new SqlConnection(ConnectionString);
                 connection.Open();
                 using var command = new SqlCommand(commandText, connection);
                 command.CommandType = commandType;
-                if(parameters != null)
-                {
-                    foreach(var parameter in parameters)
-                    {
+                if (parameters != null) {
+                    foreach (var parameter in parameters) {
                         command.Parameters.Add(parameter);
                     }
                 }
                 command.ExecuteNonQuery();
             }
-            catch(Exception ex)
-            {
+            catch (Exception ex) {
                 throw new Exception(ex.Message);
             }
         }

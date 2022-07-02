@@ -2,28 +2,26 @@
 using System.Collections.Generic;
 using System.Data;
 using BusinessObject;
+using Microsoft.Data.SqlClient;
 
-namespace DataAccess
-{
+namespace DataAccess {
     public class MemberDAO : BaseDAL {
         // Using Singleton Pattern
         private static MemberDAO instance = null;
         private static readonly object instanceLock = new object();
 
         private MemberDAO() { }
-        public static MemberDAO Instance { 
+        public static MemberDAO Instance {
             get {
-                lock (instanceLock)
-                {
-                    if (instance == null)
-                    {
+                lock (instanceLock) {
+                    if (instance == null) {
                         instance = new MemberDAO();
                     }
                 }
-                return instance; 
-            } 
+                return instance;
+            }
         }
-        
+
         public IEnumerable<MemberObject> GetMemberList() {
             IDataReader dataReader = null;
             string SQLSelect = "SELECT * FROM tblMember";
@@ -42,7 +40,7 @@ namespace DataAccess
                     ));
                 }
             }
-            catch(Exception ex) {
+            catch (Exception ex) {
                 throw new Exception(ex.Message);
             }
             finally {
@@ -72,7 +70,7 @@ namespace DataAccess
                     );
                 }
             }
-            catch(Exception ex) {
+            catch (Exception ex) {
                 throw new Exception(ex.Message);
             }
             finally {
@@ -101,7 +99,7 @@ namespace DataAccess
                     throw new Exception("This member is already exists");
                 }
             }
-            catch(Exception ex) {
+            catch (Exception ex) {
                 throw new Exception(ex.Message);
             }
             finally {

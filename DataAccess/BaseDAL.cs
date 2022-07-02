@@ -2,21 +2,17 @@
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace DataAccess
-{
-    public internal class BaseDAL
-    {
+namespace DataAccess {
+    public class BaseDAL {
         public StockDataProvider dataProvider { get; set; } = null;
         public SqlConnection connection = null;
 
-        public BaseDAL()
-        {
+        public BaseDAL() {
             var connectionstring = GetConnectionString();
             dataProvider = new StockDataProvider(connectionstring);
         }
 
-        public string GetConnectionString()
-        {
+        public string GetConnectionString() {
             string connectionString;
             IConfiguration config = new ConfigurationBuilder()
                                         .SetBasePath(Directory.GetCurrentDirectory())

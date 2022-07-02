@@ -1,0 +1,12 @@
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll

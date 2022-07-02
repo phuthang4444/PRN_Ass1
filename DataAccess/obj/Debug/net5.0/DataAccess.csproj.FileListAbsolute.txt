@@ -1,0 +1,15 @@
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\bin\Debug\net5.0\DataAccess.dll
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\bin\Debug\net5.0\BusinessObject.dll
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\bin\Debug\net5.0\BusinessObject.pdb
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.dll
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll

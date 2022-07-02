@@ -1,9 +1,7 @@
 ﻿using System;
 
-namespace BusinessObject
-{
-    public class MemberObject
-    {
+namespace BusinessObject {
+    public class MemberObject {
         // Field / Data
         private int _MemberID;
         private string _Password;
@@ -18,8 +16,7 @@ namespace BusinessObject
 
         // Constructors
         public MemberObject() { }
-        public MemberObject(int memberID, string memberName, string email, string password, string city, string country)
-        {
+        public MemberObject(int memberID, string memberName, string email, string password, string city, string country) {
             MemberID = memberID;
             MemberName = memberName;
             Email = email;
