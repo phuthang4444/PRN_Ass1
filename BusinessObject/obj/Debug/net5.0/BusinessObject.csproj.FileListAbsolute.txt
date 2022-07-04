@@ -10,3 +10,27 @@ E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass0
 E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
 E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
 E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+D:\C#\PRN_Ass1\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+D:\C#\PRN_Ass1\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+D:\C#\PRN_Ass1\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+D:\C#\PRN_Ass1\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll

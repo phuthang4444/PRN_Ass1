@@ -10,7 +10,7 @@ namespace DataAccess {
         private static MemberDAO instance = null;
         private static readonly object instanceLock = new object();
 
-        private MemberDAO() { }
+        public MemberDAO() { }
         public static MemberDAO Instance {
             get {
                 lock (instanceLock) {
@@ -74,6 +74,44 @@ namespace DataAccess {
                 throw new Exception(ex.Message);
             }
             finally {
+                dataReader.Close();
+                CloseConnection();
+            }
+            return member;
+        }
+
+        public MemberObject GetLoginMember(string email, string password)
+        {
+            MemberObject member = null;
+            IDataReader dataReader = null;
+            string SQLSelect = "SELECT *\n" +
+                "FROM tblMember\n" +
+                "WHERE Email = @Email AND Password = @Password";
+            try
+            {
+                var parameters = new List<SqlParameter> {
+                    dataProvider.CreateParameter("@Email", 50, member.Email, DbType.String),
+                    dataProvider.CreateParameter("@Password", 20, member.Password, DbType.String)
+                };
+                dataReader = dataProvider.GetDataReader(SQLSelect, CommandType.Text, out connection, parameters.ToArray());
+                if (dataReader.Read())
+                {
+                    member = new MemberObject(
+                        dataReader.GetInt32(0),
+                        dataReader.GetString(1),
+                        dataReader.GetString(2),
+                        dataReader.GetString(3),
+                        dataReader.GetString(4),
+                        dataReader.GetString(5)
+                    );
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
                 dataReader.Close();
                 CloseConnection();
             }

@@ -13,3 +13,33 @@ E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass0
 E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
 E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 E:\FPT Leaner\PRN211\Workspace\Assignments for build App with Windows Forms\Ass01Solution\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\C#\PRN_Ass1\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\C#\PRN_Ass1\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\C#\PRN_Ass1\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\C#\PRN_Ass1\DataAccess\bin\Debug\net5.0\BusinessObject.dll
+D:\C#\PRN_Ass1\DataAccess\bin\Debug\net5.0\BusinessObject.pdb
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\C#\PRN_Ass1\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\Nguyen Dang Khoa\Desktop\PRN201\PRN_Ass1\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll

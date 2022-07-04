@@ -1,4 +1,6 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using BusinessObject;
+using DataAccess;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +15,7 @@ namespace MyStoreWinApp
 {
     public partial class frmLogin : Form
     {
+        string ConnectionString = "Server(local);uid=sa;pwd=myPassw0rd;database=MemberManagement;Encrypt=False";
         public frmLogin()
         {
             InitializeComponent();
@@ -22,7 +25,7 @@ namespace MyStoreWinApp
         DataSet dsMemberManagement = new DataSet();
 
         private void frmLogin_Load(object sender, EventArgs e) {
-            string ConnectionString = "Server(local);uid=sa;pwd=myPassw0rd;database=MemberManagement;Encrypt=False";
+            
             string SQL = "SELECT MemberID, MemberName FROM Member";
             try {
                 SqlDataAdapter dataAdapter = new SqlDataAdapter(SQL, ConnectionString);
@@ -33,7 +36,29 @@ namespace MyStoreWinApp
             }
         }
         private void btnLogin_Click(object sender, EventArgs e) {
-            
+            try
+            {
+                MemberDAO memberDAO = new MemberDAO();
+                string email = txtEmail.Text;
+                string password = txtPassword.Text;
+                MemberObject member = memberDAO.GetLoginMember(email, password);
+                if (member == null)
+                {
+                    MessageBox.Show("This account is not exist");
+                }
+                else
+                {
+                    frmMemberManagement frmMemberManagement = new frmMemberManagement();
+                    frmMemberManagement.ShowDialog();
+                    Close();
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message, "Login function");
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e) => this.Close();
