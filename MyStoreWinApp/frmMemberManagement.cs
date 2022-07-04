@@ -8,9 +8,9 @@ using System.Linq;
 
 namespace MyStoreWinApp {
     public partial class frmMemberManagement : Form {
-        public frmMemberManagement() {
-            InitializeComponent();
-        }
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+        public frmMemberManagement() => InitializeComponent();
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         IMemberRepository memberRepository = new MemberRepository();
         // Create a data source
         BindingSource source;
